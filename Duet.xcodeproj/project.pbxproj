@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4364E33D1BFB522200B391A4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364E33C1BFB522200B391A4 /* ProfileViewController.swift */; };
+		4364E33F1BFB8D6400B391A4 /* EventDetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */; };
+		4364E3411BFB972800B391A4 /* MatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364E3401BFB972800B391A4 /* MatchingViewController.swift */; };
+		436B4BF71BEA701200E2509B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4BF61BEA701200E2509B /* AppDelegate.swift */; };
+		436B4BFC1BEA701200E2509B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436B4BFA1BEA701200E2509B /* Main.storyboard */; };
+		436B4BFF1BEA701200E2509B /* Duet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 436B4BFD1BEA701200E2509B /* Duet.xcdatamodeld */; };
+		436B4C011BEA701200E2509B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436B4C001BEA701200E2509B /* Assets.xcassets */; };
+		436B4C041BEA701200E2509B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436B4C021BEA701200E2509B /* LaunchScreen.storyboard */; };
+		436B4C0F1BEA701200E2509B /* DuetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4C0E1BEA701200E2509B /* DuetTests.swift */; };
+		436B4C1A1BEA701200E2509B /* DuetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4C191BEA701200E2509B /* DuetUITests.swift */; };
+		436B4C2A1BEA70A200E2509B /* EventPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4C291BEA70A200E2509B /* EventPageViewController.swift */; };
+		43A02B0A1BF94CA9003AD5B0 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A02B091BF94CA9003AD5B0 /* NavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		436B4C0B1BEA701200E2509B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436B4BEB1BEA701200E2509B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436B4BF21BEA701200E2509B;
+			remoteInfo = Duet;
+		};
+		436B4C161BEA701200E2509B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 436B4BEB1BEA701200E2509B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436B4BF21BEA701200E2509B;
+			remoteInfo = Duet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4364E33C1BFB522200B391A4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsPage.swift; sourceTree = "<group>"; };
+		4364E3401BFB972800B391A4 /* MatchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingViewController.swift; sourceTree = "<group>"; };
+		436B4BF31BEA701200E2509B /* Duet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		436B4BF61BEA701200E2509B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		436B4BFB1BEA701200E2509B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		436B4BFE1BEA701200E2509B /* Duet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Duet.xcdatamodel; sourceTree = "<group>"; };
+		436B4C001BEA701200E2509B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		436B4C031BEA701200E2509B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		436B4C051BEA701200E2509B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436B4C0A1BEA701200E2509B /* DuetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		436B4C0E1BEA701200E2509B /* DuetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetTests.swift; sourceTree = "<group>"; };
+		436B4C101BEA701200E2509B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436B4C151BEA701200E2509B /* DuetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		436B4C191BEA701200E2509B /* DuetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuetUITests.swift; sourceTree = "<group>"; };
+		436B4C1B1BEA701200E2509B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436B4C291BEA70A200E2509B /* EventPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPageViewController.swift; sourceTree = "<group>"; };
+		43A02B091BF94CA9003AD5B0 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		436B4BF01BEA701200E2509B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436B4C071BEA701200E2509B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436B4C121BEA701200E2509B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		436B4BEA1BEA701200E2509B = {
+			isa = PBXGroup;
+			children = (
+				436B4BF51BEA701200E2509B /* Duet */,
+				436B4C0D1BEA701200E2509B /* DuetTests */,
+				436B4C181BEA701200E2509B /* DuetUITests */,
+				436B4BF41BEA701200E2509B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		436B4BF41BEA701200E2509B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				436B4BF31BEA701200E2509B /* Duet.app */,
+				436B4C0A1BEA701200E2509B /* DuetTests.xctest */,
+				436B4C151BEA701200E2509B /* DuetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		436B4BF51BEA701200E2509B /* Duet */ = {
+			isa = PBXGroup;
+			children = (
+				436B4BFA1BEA701200E2509B /* Main.storyboard */,
+				436B4BF61BEA701200E2509B /* AppDelegate.swift */,
+				43A02B091BF94CA9003AD5B0 /* NavigationController.swift */,
+				436B4C291BEA70A200E2509B /* EventPageViewController.swift */,
+				4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */,
+				4364E33C1BFB522200B391A4 /* ProfileViewController.swift */,
+				4364E3401BFB972800B391A4 /* MatchingViewController.swift */,
+				436B4C001BEA701200E2509B /* Assets.xcassets */,
+				436B4C021BEA701200E2509B /* LaunchScreen.storyboard */,
+				436B4C051BEA701200E2509B /* Info.plist */,
+				436B4BFD1BEA701200E2509B /* Duet.xcdatamodeld */,
+			);
+			path = Duet;
+			sourceTree = "<group>";
+		};
+		436B4C0D1BEA701200E2509B /* DuetTests */ = {
+			isa = PBXGroup;
+			children = (
+				436B4C0E1BEA701200E2509B /* DuetTests.swift */,
+				436B4C101BEA701200E2509B /* Info.plist */,
+			);
+			path = DuetTests;
+			sourceTree = "<group>";
+		};
+		436B4C181BEA701200E2509B /* DuetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				436B4C191BEA701200E2509B /* DuetUITests.swift */,
+				436B4C1B1BEA701200E2509B /* Info.plist */,
+			);
+			path = DuetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		436B4BF21BEA701200E2509B /* Duet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436B4C1E1BEA701200E2509B /* Build configuration list for PBXNativeTarget "Duet" */;
+			buildPhases = (
+				436B4BEF1BEA701200E2509B /* Sources */,
+				436B4BF01BEA701200E2509B /* Frameworks */,
+				436B4BF11BEA701200E2509B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Duet;
+			productName = Duet;
+			productReference = 436B4BF31BEA701200E2509B /* Duet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		436B4C091BEA701200E2509B /* DuetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436B4C211BEA701200E2509B /* Build configuration list for PBXNativeTarget "DuetTests" */;
+			buildPhases = (
+				436B4C061BEA701200E2509B /* Sources */,
+				436B4C071BEA701200E2509B /* Frameworks */,
+				436B4C081BEA701200E2509B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436B4C0C1BEA701200E2509B /* PBXTargetDependency */,
+			);
+			name = DuetTests;
+			productName = DuetTests;
+			productReference = 436B4C0A1BEA701200E2509B /* DuetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		436B4C141BEA701200E2509B /* DuetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436B4C241BEA701200E2509B /* Build configuration list for PBXNativeTarget "DuetUITests" */;
+			buildPhases = (
+				436B4C111BEA701200E2509B /* Sources */,
+				436B4C121BEA701200E2509B /* Frameworks */,
+				436B4C131BEA701200E2509B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				436B4C171BEA701200E2509B /* PBXTargetDependency */,
+			);
+			name = DuetUITests;
+			productName = DuetUITests;
+			productReference = 436B4C151BEA701200E2509B /* DuetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		436B4BEB1BEA701200E2509B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ed Ngai";
+				TargetAttributes = {
+					436B4BF21BEA701200E2509B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = XVBBRS6T49;
+					};
+					436B4C091BEA701200E2509B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 436B4BF21BEA701200E2509B;
+					};
+					436B4C141BEA701200E2509B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 436B4BF21BEA701200E2509B;
+					};
+				};
+			};
+			buildConfigurationList = 436B4BEE1BEA701200E2509B /* Build configuration list for PBXProject "Duet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 436B4BEA1BEA701200E2509B;
+			productRefGroup = 436B4BF41BEA701200E2509B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				436B4BF21BEA701200E2509B /* Duet */,
+				436B4C091BEA701200E2509B /* DuetTests */,
+				436B4C141BEA701200E2509B /* DuetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		436B4BF11BEA701200E2509B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436B4C041BEA701200E2509B /* LaunchScreen.storyboard in Resources */,
+				436B4C011BEA701200E2509B /* Assets.xcassets in Resources */,
+				436B4BFC1BEA701200E2509B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436B4C081BEA701200E2509B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436B4C131BEA701200E2509B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436B4BEF1BEA701200E2509B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4364E33F1BFB8D6400B391A4 /* EventDetailsPage.swift in Sources */,
+				436B4BFF1BEA701200E2509B /* Duet.xcdatamodeld in Sources */,
+				4364E3411BFB972800B391A4 /* MatchingViewController.swift in Sources */,
+				43A02B0A1BF94CA9003AD5B0 /* NavigationController.swift in Sources */,
+				4364E33D1BFB522200B391A4 /* ProfileViewController.swift in Sources */,
+				436B4C2A1BEA70A200E2509B /* EventPageViewController.swift in Sources */,
+				436B4BF71BEA701200E2509B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436B4C061BEA701200E2509B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436B4C0F1BEA701200E2509B /* DuetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436B4C111BEA701200E2509B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436B4C1A1BEA701200E2509B /* DuetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		436B4C0C1BEA701200E2509B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436B4BF21BEA701200E2509B /* Duet */;
+			targetProxy = 436B4C0B1BEA701200E2509B /* PBXContainerItemProxy */;
+		};
+		436B4C171BEA701200E2509B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 436B4BF21BEA701200E2509B /* Duet */;
+			targetProxy = 436B4C161BEA701200E2509B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		436B4BFA1BEA701200E2509B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436B4BFB1BEA701200E2509B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		436B4C021BEA701200E2509B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				436B4C031BEA701200E2509B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		436B4C1C1BEA701200E2509B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		436B4C1D1BEA701200E2509B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		436B4C1F1BEA701200E2509B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Duet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edngai.Duet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		436B4C201BEA701200E2509B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Duet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edngai.Duet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		436B4C221BEA701200E2509B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DuetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edngai.DuetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duet.app/Duet";
+			};
+			name = Debug;
+		};
+		436B4C231BEA701200E2509B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DuetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edngai.DuetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duet.app/Duet";
+			};
+			name = Release;
+		};
+		436B4C251BEA701200E2509B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DuetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edngai.DuetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Duet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		436B4C261BEA701200E2509B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DuetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edngai.DuetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Duet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436B4BEE1BEA701200E2509B /* Build configuration list for PBXProject "Duet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436B4C1C1BEA701200E2509B /* Debug */,
+				436B4C1D1BEA701200E2509B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436B4C1E1BEA701200E2509B /* Build configuration list for PBXNativeTarget "Duet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436B4C1F1BEA701200E2509B /* Debug */,
+				436B4C201BEA701200E2509B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436B4C211BEA701200E2509B /* Build configuration list for PBXNativeTarget "DuetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436B4C221BEA701200E2509B /* Debug */,
+				436B4C231BEA701200E2509B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		436B4C241BEA701200E2509B /* Build configuration list for PBXNativeTarget "DuetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				436B4C251BEA701200E2509B /* Debug */,
+				436B4C261BEA701200E2509B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		436B4BFD1BEA701200E2509B /* Duet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				436B4BFE1BEA701200E2509B /* Duet.xcdatamodel */,
+			);
+			currentVersion = 436B4BFE1BEA701200E2509B /* Duet.xcdatamodel */;
+			path = Duet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 436B4BEB1BEA701200E2509B /* Project object */;
+}
