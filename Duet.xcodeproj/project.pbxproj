@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431402AF1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431402AE1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift */; };
 		4364E33D1BFB522200B391A4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364E33C1BFB522200B391A4 /* ProfileViewController.swift */; };
 		4364E33F1BFB8D6400B391A4 /* EventDetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */; };
 		4364E3411BFB972800B391A4 /* MatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364E3401BFB972800B391A4 /* MatchingViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		431402AE1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSegueLeftRight.swift; sourceTree = "<group>"; };
 		4364E33C1BFB522200B391A4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsPage.swift; sourceTree = "<group>"; };
 		4364E3401BFB972800B391A4 /* MatchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchingViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */,
 				4364E33C1BFB522200B391A4 /* ProfileViewController.swift */,
 				4364E3401BFB972800B391A4 /* MatchingViewController.swift */,
+				431402AE1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift */,
 				436B4C001BEA701200E2509B /* Assets.xcassets */,
 				436B4C021BEA701200E2509B /* LaunchScreen.storyboard */,
 				436B4C051BEA701200E2509B /* Info.plist */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4364E33F1BFB8D6400B391A4 /* EventDetailsPage.swift in Sources */,
+				431402AF1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift in Sources */,
 				436B4BFF1BEA701200E2509B /* Duet.xcdatamodeld in Sources */,
 				4364E3411BFB972800B391A4 /* MatchingViewController.swift in Sources */,
 				43A02B0A1BF94CA9003AD5B0 /* NavigationController.swift in Sources */,

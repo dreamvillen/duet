@@ -28,10 +28,12 @@ class EventPageViewController: UIViewController {
         //Vertical Scroll bar off
         self.scrollView.showsVerticalScrollIndicator = false
         
+        /*
         //Place the word search in search bar
         let textFieldInsideSearchBar = search.valueForKey("searchField") as? UITextField
         textFieldInsideSearchBar?.text = "Search"
-        textFieldInsideSearchBar?.font = UIFont(name: "Helvitica Neue", size: 6.0)
+        */
+    
         
         //Dismiss keyboard on tap
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
@@ -66,6 +68,7 @@ class EventPageViewController: UIViewController {
             eventDetailsViewController.venue = "Staples Center"
             eventDetailsViewController.date = "December 5, 2015"
             eventDetailsViewController.time = "7:00 P.M."
+            eventDetailsViewController.mapImageName = "staplescenter"
         }
         else if(segue.identifier! == "TaylorSegue"){
             eventDetailsViewController.imageName = "taylorCircle"
@@ -73,6 +76,7 @@ class EventPageViewController: UIViewController {
             eventDetailsViewController.venue = "Nokia Center"
             eventDetailsViewController.date = "December 5, 2015"
             eventDetailsViewController.time = "8:00 P.M."
+            eventDetailsViewController.mapImageName = "microsofttheater"
         }
         else if(segue.identifier! == "KaskadeSegue"){
             eventDetailsViewController.imageName = "kaskadeCircle"
@@ -80,6 +84,7 @@ class EventPageViewController: UIViewController {
             eventDetailsViewController.venue = "The Forum"
             eventDetailsViewController.date = "December 12, 2015"
             eventDetailsViewController.time = "9:00 P.M."
+            eventDetailsViewController.mapImageName = "forum"
         }
         else if(segue.identifier! == "JustinSegue"){
             eventDetailsViewController.imageName = "justinCircle"
@@ -87,6 +92,7 @@ class EventPageViewController: UIViewController {
             eventDetailsViewController.venue = "Hollywood Bowl"
             eventDetailsViewController.date = "December 15, 2015"
             eventDetailsViewController.time = "7:00 P.M."
+            eventDetailsViewController.mapImageName = "hollywoodbowl"
         }
         else if(segue.identifier! == "DrakeSegue"){
             eventDetailsViewController.imageName = "drakeCircle"
@@ -94,6 +100,7 @@ class EventPageViewController: UIViewController {
             eventDetailsViewController.venue = "Greek Theater"
             eventDetailsViewController.date = "December 21, 2015"
             eventDetailsViewController.time = "8:00 P.M."
+            eventDetailsViewController.mapImageName = "greektheater"
         }
         
         }

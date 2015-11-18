@@ -16,12 +16,14 @@ class EventDetailsPage: UIViewController {
     @IBOutlet weak var venueLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var mapImage: UIImageView!
     
     var imageName = ""
     var artist = ""
     var venue = ""
     var date = ""
     var time = ""
+    var mapImageName = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +33,8 @@ class EventDetailsPage: UIViewController {
         self.artistLabel.text = artist
         self.venueLabel.text = venue
         self.dateLabel.text = date
-        self.timeLabel.text = time 
+        self.timeLabel.text = time
+        self.mapImage.image = UIImage(named: mapImageName)
         
     }
 
