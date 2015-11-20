@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4303A6911BFE3C620045072D /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303A6901BFE3C620045072D /* ImageLabelView.swift */; };
+		4303A6931BFE3CCE0045072D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303A6921BFE3CCE0045072D /* Person.swift */; };
+		4303A6951BFE5D720045072D /* ChoosePersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4303A6941BFE5D720045072D /* ChoosePersonView.swift */; };
 		431402AF1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431402AE1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift */; };
 		4364E33D1BFB522200B391A4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364E33C1BFB522200B391A4 /* ProfileViewController.swift */; };
 		4364E33F1BFB8D6400B391A4 /* EventDetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */; };
@@ -20,6 +23,7 @@
 		436B4C1A1BEA701200E2509B /* DuetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4C191BEA701200E2509B /* DuetUITests.swift */; };
 		436B4C2A1BEA70A200E2509B /* EventPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4C291BEA70A200E2509B /* EventPageViewController.swift */; };
 		43A02B0A1BF94CA9003AD5B0 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A02B091BF94CA9003AD5B0 /* NavigationController.swift */; };
+		AAB240D67EE8B544D646FF8A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191FA955B9EE570A333CCDBE /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191FA955B9EE570A333CCDBE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4303A68F1BFE397C0045072D /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		4303A6901BFE3C620045072D /* ImageLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLabelView.swift; sourceTree = "<group>"; };
+		4303A6921BFE3CCE0045072D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		4303A6941BFE5D720045072D /* ChoosePersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePersonView.swift; sourceTree = "<group>"; };
 		431402AE1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSegueLeftRight.swift; sourceTree = "<group>"; };
 		4364E33C1BFB522200B391A4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsPage.swift; sourceTree = "<group>"; };
@@ -59,6 +68,8 @@
 		436B4C1B1BEA701200E2509B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436B4C291BEA70A200E2509B /* EventPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPageViewController.swift; sourceTree = "<group>"; };
 		43A02B091BF94CA9003AD5B0 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		6DBF716033ABF8F8DEB995D8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A8472AF355C7A6C387C07884 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB240D67EE8B544D646FF8A /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04870BDC5A93C317240E9B23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				191FA955B9EE570A333CCDBE /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		436B4BEA1BEA701200E2509B = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +113,8 @@
 				436B4C0D1BEA701200E2509B /* DuetTests */,
 				436B4C181BEA701200E2509B /* DuetUITests */,
 				436B4BF41BEA701200E2509B /* Products */,
+				FBA8CF9414BE49C14264CDFC /* Pods */,
+				04870BDC5A93C317240E9B23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +143,10 @@
 				436B4C021BEA701200E2509B /* LaunchScreen.storyboard */,
 				436B4C051BEA701200E2509B /* Info.plist */,
 				436B4BFD1BEA701200E2509B /* Duet.xcdatamodeld */,
+				4303A68F1BFE397C0045072D /* BridgingHeader.h */,
+				4303A6901BFE3C620045072D /* ImageLabelView.swift */,
+				4303A6921BFE3CCE0045072D /* Person.swift */,
+				4303A6941BFE5D720045072D /* ChoosePersonView.swift */,
 			);
 			path = Duet;
 			sourceTree = "<group>";
@@ -143,6 +169,15 @@
 			path = DuetUITests;
 			sourceTree = "<group>";
 		};
+		FBA8CF9414BE49C14264CDFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DBF716033ABF8F8DEB995D8 /* Pods.debug.xcconfig */,
+				A8472AF355C7A6C387C07884 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 436B4C1E1BEA701200E2509B /* Build configuration list for PBXNativeTarget "Duet" */;
 			buildPhases = (
+				9C8B0B2F037DC98881D04171 /* Check Pods Manifest.lock */,
 				436B4BEF1BEA701200E2509B /* Sources */,
 				436B4BF01BEA701200E2509B /* Frameworks */,
 				436B4BF11BEA701200E2509B /* Resources */,
+				2EB1FD720522602B09050322 /* Embed Pods Frameworks */,
+				3837A94243286A0459BB7E80 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,13 +308,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EB1FD720522602B09050322 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3837A94243286A0459BB7E80 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8B0B2F037DC98881D04171 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		436B4BEF1BEA701200E2509B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4303A6931BFE3CCE0045072D /* Person.swift in Sources */,
+				4303A6911BFE3C620045072D /* ImageLabelView.swift in Sources */,
 				4364E33F1BFB8D6400B391A4 /* EventDetailsPage.swift in Sources */,
 				431402AF1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift in Sources */,
+				4303A6951BFE5D720045072D /* ChoosePersonView.swift in Sources */,
 				436B4BFF1BEA701200E2509B /* Duet.xcdatamodeld in Sources */,
 				4364E3411BFB972800B391A4 /* MatchingViewController.swift in Sources */,
 				43A02B0A1BF94CA9003AD5B0 /* NavigationController.swift in Sources */,
@@ -420,6 +509,7 @@
 		};
 		436B4C1F1BEA701200E2509B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBF716033ABF8F8DEB995D8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -430,12 +520,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.edngai.Duet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Duet/BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		436B4C201BEA701200E2509B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8472AF355C7A6C387C07884 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -446,6 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.edngai.Duet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Duet/BridgingHeader.h;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
