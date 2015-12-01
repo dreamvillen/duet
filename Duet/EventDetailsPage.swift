@@ -27,7 +27,9 @@ class EventDetailsPage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        let titleDict: NSDictionary = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        self.navigationController?.navigationBar.titleTextAttributes = titleDict as! [String : AnyObject]
+
         
         self.eventImage.image = UIImage(named: imageName)
         self.artistLabel.text = artist

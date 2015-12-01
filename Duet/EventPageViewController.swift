@@ -55,9 +55,8 @@ class EventPageViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        if(segue.identifier! == "ProfileSegue"){
-            
-        }
+        if(segue.identifier! == "ProfileSegue"){}
+        else if(segue.identifier! == "MessagingSegue"){}
         
     else{
         let eventDetailsViewController = segue.destinationViewController as! EventDetailsPage

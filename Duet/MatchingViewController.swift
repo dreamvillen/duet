@@ -33,6 +33,9 @@ class MatchingViewController: UIViewController, MDCSwipeToChooseDelegate {
     
     override func viewDidLoad(){
         super.viewDidLoad()
+        let titleDict: NSDictionary = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        self.navigationController?.navigationBar.titleTextAttributes = titleDict as! [String : AnyObject]
+        
         
         // Display the first ChoosePersonView in front. Users can swipe to indicate
         // whether they like or dislike the person displayed.
@@ -105,7 +108,7 @@ class MatchingViewController: UIViewController, MDCSwipeToChooseDelegate {
         // It would be trivial to download these from a web service
         // as needed, but for the purposes of this sample app we'll
         // simply store them in memory.
-        return [Person(name: "Finn", image: UIImage(named: "finn"), age: 21, sharedFriends: 3, sharedInterest: 4, photos: 5), Person(name: "Jake", image: UIImage(named: "jake"), age: 21, sharedFriends: 3, sharedInterest: 4, photos: 5), Person(name: "Fiona", image: UIImage(named: "fiona"), age: 21, sharedFriends: 3, sharedInterest: 4, photos: 5), Person(name: "Steph", image: UIImage(named: "steph"), age: 21, sharedFriends: 3, sharedInterest: 4, photos: 5)]
+        return [Person(name: "Talia", image: UIImage(named: "TaliaCard"), age: 21, sharedFriends: 3, sharedInterest: 4, photos: 5), Person(name: "Justin", image: UIImage(named: "JustinCard"), age: 21, sharedFriends: 3, sharedInterest: 4, photos: 5), Person(name: "Nam", image: UIImage(named: "NamCard"), age: 21, sharedFriends: 3, sharedInterest: 4, photos: 5), Person(name: "Austin", image: UIImage(named: "AustinCard"), age: 21, sharedFriends: 3, sharedInterest: 4, photos: 5), Person(name: "Caitlin", image: UIImage(named: "CaitlinCard"), age: 21, sharedFriends: 3, sharedInterest: 4, photos: 5)]
         
     }
     func popPersonViewWithFrame(frame:CGRect) -> ChoosePersonView?{

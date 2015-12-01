@@ -17,12 +17,15 @@
 		436B4BF71BEA701200E2509B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4BF61BEA701200E2509B /* AppDelegate.swift */; };
 		436B4BFC1BEA701200E2509B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436B4BFA1BEA701200E2509B /* Main.storyboard */; };
 		436B4BFF1BEA701200E2509B /* Duet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 436B4BFD1BEA701200E2509B /* Duet.xcdatamodeld */; };
-		436B4C011BEA701200E2509B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436B4C001BEA701200E2509B /* Assets.xcassets */; };
 		436B4C041BEA701200E2509B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436B4C021BEA701200E2509B /* LaunchScreen.storyboard */; };
 		436B4C0F1BEA701200E2509B /* DuetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4C0E1BEA701200E2509B /* DuetTests.swift */; };
 		436B4C1A1BEA701200E2509B /* DuetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4C191BEA701200E2509B /* DuetUITests.swift */; };
 		436B4C2A1BEA70A200E2509B /* EventPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B4C291BEA70A200E2509B /* EventPageViewController.swift */; };
 		43A02B0A1BF94CA9003AD5B0 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A02B091BF94CA9003AD5B0 /* NavigationController.swift */; };
+		43FAC7A41C06339C00A42855 /* MessagingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FAC7A31C06339C00A42855 /* MessagingTableViewCell.swift */; };
+		43FAC7A61C06357B00A42855 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FAC7A51C06357B00A42855 /* MessageTableViewController.swift */; };
+		43FAC7AA1C0CD97F00A42855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FAC7A91C0CD97F00A42855 /* Assets.xcassets */; };
+		43FAC7AC1C0D8AC100A42855 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FAC7AB1C0D8AC100A42855 /* ChatViewController.swift */; };
 		AAB240D67EE8B544D646FF8A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191FA955B9EE570A333CCDBE /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +60,6 @@
 		436B4BF61BEA701200E2509B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436B4BFB1BEA701200E2509B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		436B4BFE1BEA701200E2509B /* Duet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Duet.xcdatamodel; sourceTree = "<group>"; };
-		436B4C001BEA701200E2509B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		436B4C031BEA701200E2509B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		436B4C051BEA701200E2509B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436B4C0A1BEA701200E2509B /* DuetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,10 @@
 		436B4C1B1BEA701200E2509B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436B4C291BEA70A200E2509B /* EventPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPageViewController.swift; sourceTree = "<group>"; };
 		43A02B091BF94CA9003AD5B0 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		43FAC7A31C06339C00A42855 /* MessagingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingTableViewCell.swift; sourceTree = "<group>"; };
+		43FAC7A51C06357B00A42855 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		43FAC7A91C0CD97F00A42855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43FAC7AB1C0D8AC100A42855 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = ../ChatViewController.swift; sourceTree = "<group>"; };
 		6DBF716033ABF8F8DEB995D8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A8472AF355C7A6C387C07884 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +112,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4303A6961BFF02A90045072D /* MDCSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				4303A6901BFE3C620045072D /* ImageLabelView.swift */,
+				4303A6921BFE3CCE0045072D /* Person.swift */,
+				4303A6941BFE5D720045072D /* ChoosePersonView.swift */,
+			);
+			name = MDCSwipe;
+			sourceTree = "<group>";
+		};
+		4303A6981BFF02DC0045072D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				43A02B091BF94CA9003AD5B0 /* NavigationController.swift */,
+				436B4C291BEA70A200E2509B /* EventPageViewController.swift */,
+				4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */,
+				4364E33C1BFB522200B391A4 /* ProfileViewController.swift */,
+				4364E3401BFB972800B391A4 /* MatchingViewController.swift */,
+				43FAC7A51C06357B00A42855 /* MessageTableViewController.swift */,
+				43FAC7AB1C0D8AC100A42855 /* ChatViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4303A6991BFF02E80045072D /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				431402AE1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift */,
+			);
+			name = Segues;
+			sourceTree = "<group>";
+		};
 		436B4BEA1BEA701200E2509B = {
 			isa = PBXGroup;
 			children = (
@@ -131,22 +169,17 @@
 		436B4BF51BEA701200E2509B /* Duet */ = {
 			isa = PBXGroup;
 			children = (
+				43FAC7A91C0CD97F00A42855 /* Assets.xcassets */,
 				436B4BFA1BEA701200E2509B /* Main.storyboard */,
-				436B4BF61BEA701200E2509B /* AppDelegate.swift */,
-				43A02B091BF94CA9003AD5B0 /* NavigationController.swift */,
-				436B4C291BEA70A200E2509B /* EventPageViewController.swift */,
-				4364E33E1BFB8D6400B391A4 /* EventDetailsPage.swift */,
-				4364E33C1BFB522200B391A4 /* ProfileViewController.swift */,
-				4364E3401BFB972800B391A4 /* MatchingViewController.swift */,
-				431402AE1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift */,
-				436B4C001BEA701200E2509B /* Assets.xcassets */,
+				4303A6961BFF02A90045072D /* MDCSwipe */,
+				4303A6981BFF02DC0045072D /* View Controllers */,
+				4303A6991BFF02E80045072D /* Segues */,
 				436B4C021BEA701200E2509B /* LaunchScreen.storyboard */,
 				436B4C051BEA701200E2509B /* Info.plist */,
 				436B4BFD1BEA701200E2509B /* Duet.xcdatamodeld */,
 				4303A68F1BFE397C0045072D /* BridgingHeader.h */,
-				4303A6901BFE3C620045072D /* ImageLabelView.swift */,
-				4303A6921BFE3CCE0045072D /* Person.swift */,
-				4303A6941BFE5D720045072D /* ChoosePersonView.swift */,
+				436B4BF61BEA701200E2509B /* AppDelegate.swift */,
+				43FAC7A31C06339C00A42855 /* MessagingTableViewCell.swift */,
 			);
 			path = Duet;
 			sourceTree = "<group>";
@@ -287,7 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				436B4C041BEA701200E2509B /* LaunchScreen.storyboard in Resources */,
-				436B4C011BEA701200E2509B /* Assets.xcassets in Resources */,
+				43FAC7AA1C0CD97F00A42855 /* Assets.xcassets in Resources */,
 				436B4BFC1BEA701200E2509B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,14 +394,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FAC7A41C06339C00A42855 /* MessagingTableViewCell.swift in Sources */,
 				4303A6931BFE3CCE0045072D /* Person.swift in Sources */,
 				4303A6911BFE3C620045072D /* ImageLabelView.swift in Sources */,
 				4364E33F1BFB8D6400B391A4 /* EventDetailsPage.swift in Sources */,
 				431402AF1BFC992D00B7B8DC /* ProfileSegueLeftRight.swift in Sources */,
+				43FAC7A61C06357B00A42855 /* MessageTableViewController.swift in Sources */,
 				4303A6951BFE5D720045072D /* ChoosePersonView.swift in Sources */,
 				436B4BFF1BEA701200E2509B /* Duet.xcdatamodeld in Sources */,
 				4364E3411BFB972800B391A4 /* MatchingViewController.swift in Sources */,
 				43A02B0A1BF94CA9003AD5B0 /* NavigationController.swift in Sources */,
+				43FAC7AC1C0D8AC100A42855 /* ChatViewController.swift in Sources */,
 				4364E33D1BFB522200B391A4 /* ProfileViewController.swift in Sources */,
 				436B4C2A1BEA70A200E2509B /* EventPageViewController.swift in Sources */,
 				436B4BF71BEA701200E2509B /* AppDelegate.swift in Sources */,
