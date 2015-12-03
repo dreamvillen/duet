@@ -12,7 +12,7 @@ class MessageTableViewController: UITableViewController {
     
     var clickedName = ""
     let names = ["Talia", "Justin", "Nam", "Austin", "Caitlin", "Anna", "Jennifer", "Megan", "Louie", "Nikko"]
-    let messages = ["Hey!", "Are you down to go see Kanye?", "Wait, I love Justin Bieber too!", "Hey, wanna go to a concert?", "No way!", "Coachella is my favorite!", "Hello There!", "That's super dope!", "Let's meetup!", "Nice, what's your number?"]
+    let messages = ["Hey! Nice to meet you, I'm Ed", "Are you down to go see Kanye?", "Wait, I love Justin Bieber too!", "Hey, wanna go to a concert?", "No way!", "Coachella is my favorite!", "Hello There!", "That's super dope!", "Let's meetup!", "Nice, what's your number?"]
     let concerts = ["Drake - 12/21", "Kanye West - 12/05", "Justin Bieber - 12/15", "Taylor Swift - 12/07", "Kaskade - 12/12", "Drake - 12/21", "Kanye West - 12/05", "Justin Bieber - 12/15", "Taylor Swift - 12/07", "Kaskade - 12/12"]
     let imageNames = ["taliasquare", "justinsquare", "namsquare", "austinsquare", "caitlinsquare", "finn", "prince", "fiona", "jake", "EdProfile"]
     

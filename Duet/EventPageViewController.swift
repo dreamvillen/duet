@@ -87,7 +87,7 @@ class EventPageViewController: UIViewController {
         }
         else if(segue.identifier! == "JustinSegue"){
             eventDetailsViewController.imageName = "justinCircle"
-            eventDetailsViewController.artist = "Justin Beiber"
+            eventDetailsViewController.artist = "Justin Bieber"
             eventDetailsViewController.venue = "Hollywood Bowl"
             eventDetailsViewController.date = "December 15, 2015"
             eventDetailsViewController.time = "7:00 P.M."
